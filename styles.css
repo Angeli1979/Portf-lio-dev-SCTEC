@@ -398,3 +398,18 @@ li {
 footer {
   margin-top: 0;
 }
+
+/* Link "Ver projeto" – estilo normal */
+.projeto-link {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse (hover) */
+.projeto-link:hover {
+  color: #ffd54f; /* muda a cor do texto */
+  transform: scale(1.05); /* dá uma leve “expandida” */
+}
